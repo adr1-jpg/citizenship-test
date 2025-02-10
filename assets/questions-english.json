@@ -2,503 +2,703 @@
   {
     "id": 1,
     "question": "What is the supreme law of the land?",
-    "answer": "The Constitution"
+    "answer": "The Constitution",
+    "question-spanish": "¿Cuál es la ley suprema del país?",
+    "answer-spanish": "La Constitución"
   },
   {
     "id": 2,
     "question": "What does the Constitution do?",
-    "answer": "Sets up the government"
+    "answer": "Sets up the government",
+    "question-spanish": "¿Qué hace la Constitución?",
+    "answer-spanish": "Establece el gobierno"
   },
   {
     "id": 3,
     "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
-    "answer": "We the People"
+    "answer": "We the People",
+    "question-spanish": "La idea de autogobierno está en las tres primeras palabras de la Constitución. ¿Cuáles son estas palabras?",
+    "answer-spanish": "Nosotros el Pueblo"
   },
   {
     "id": 4,
     "question": "What is an amendment?",
-    "answer": "A change (to the Constitution)"
+    "answer": "A change (to the Constitution)",
+    "question-spanish": "¿Qué es una enmienda?",
+    "answer-spanish": "Un cambio (a la Constitución)"
   },
   {
     "id": 5,
     "question": "What do we call the first ten amendments to the Constitution?",
-    "answer": "The Bill of Rights"
+    "answer": "The Bill of Rights",
+    "question-spanish": "¿Cómo llamamos a las primeras diez enmiendas de la Constitución?",
+    "answer-spanish": "La Carta de Derechos"
   },
   {
     "id": 6,
     "question": "What is one right or freedom from the First Amendment?",
-    "answer": "Religion"
+    "answer": "Religion",
+    "question-spanish": "¿Cuál es un derecho o libertad de la Primera Enmienda?",
+    "answer-spanish": "Religión"
   },
   {
     "id": 7,
     "question": "How many amendments does the Constitution have?",
-    "answer": "Twenty-seven (27)"
+    "answer": "Twenty-seven (27)",
+    "question-spanish": "¿Cuántas enmiendas tiene la Constitución?",
+    "answer-spanish": "Veintisiete (27)"
   },
   {
     "id": 8,
     "question": "What did the Declaration of Independence do?",
-    "answer": "Announced our independence (from Great Britain)"
+    "answer": "Announced our independence (from Great Britain)",
+    "question-spanish": "¿Qué hizo la Declaración de Independencia?",
+    "answer-spanish": "Anunció nuestra independencia (de Gran Bretaña)"
   },
   {
     "id": 9,
     "question": "What are two rights in the Declaration of Independence?",
-    "answer": "Life, Liberty"
+    "answer": "Life, Liberty",
+    "question-spanish": "¿Cuáles son dos derechos en la Declaración de Independencia?",
+    "answer-spanish": "Vida, Libertad"
   },
   {
     "id": 10,
     "question": "What is freedom of religion?",
-    "answer": "You can practice any religion, or not practice a religion."
+    "answer": "You can practice any religion, or not practice a religion",
+    "question-spanish": "¿Qué es la libertad de religión?",
+    "answer-spanish": "Puedes practicar cualquier religión o no practicar ninguna."
   },
   {
     "id": 11,
     "question": "What is the economic system in the United States?",
-    "answer": "Capitalist Economy"
+    "answer": "Capitalist Economy",
+    "question-spanish": "¿Cuál es el sistema económico en los Estados Unidos?",
+    "answer-spanish": "Economía Capitalista"
   },
   {
     "id": 12,
     "question": "What is the “rule of law”?",
-    "answer": "Everyone must follow the law"
+    "answer": "Everyone must follow the law",
+    "question-spanish": "¿Qué es la “regla de la ley”?",
+    "answer-spanish": "Todos deben seguir la ley"
   },
   {
     "id": 13,
     "question": "Name one branch or part of the government.",
-    "answer": "Congress"
+    "answer": "Congress",
+    "question-spanish": "Nombra una rama o parte del gobierno.",
+    "answer-spanish": "Congreso"
   },
   {
     "id": 14,
     "question": "What stops one branch of government from becoming too powerful?",
-    "answer": "Checks and balances"
+    "answer": "Checks and balances",
+    "question-spanish": "¿Qué impide que una rama del gobierno se vuelva demasiado poderosa?",
+    "answer-spanish": "Controles y equilibrios"
   },
   {
     "id": 15,
     "question": "Who is in charge of the executive branch?",
-    "answer": "The President"
+    "answer": "The President",
+    "question-spanish": "¿Quién está a cargo de la rama ejecutiva?",
+    "answer-spanish": "El Presidente"
   },
   {
     "id": 16,
     "question": "Who makes federal laws?",
-    "answer": "Congress"
+    "answer": "Congress",
+    "question-spanish": "¿Quién hace las leyes federales?",
+    "answer-spanish": "Congreso"
   },
   {
     "id": 17,
     "question": "What are the two parts of the U.S. Congress?",
-    "answer": "The Senate and House (of Representatives)"
+    "answer": "The Senate and House (of Representatives)",
+    "question-spanish": "¿Cuáles son las dos partes del Congreso de los EE. UU.?",
+    "answer-spanish": "El Senado y la Cámara (de Representantes)"
   },
   {
     "id": 18,
     "question": "How many U.S. Senators are there?",
-    "answer": "One hundred (100)"
+    "answer": "One hundred (100)",
+    "question-spanish": "¿Cuántos Senadores de los EE. UU. hay?",
+    "answer-spanish": "Cien (100)"
   },
   {
     "id": 19,
     "question": "We elect a U.S. Senator for how many years?",
-    "answer": "Six (6)"
+    "answer": "Six (6)",
+    "question-spanish": "¿Por cuántos años elegimos a un Senador de los EE. UU.?",
+    "answer-spanish": "Seis (6)"
   },
   {
     "id": 20,
     "question": "Who is one of your state's U.S. Senators now?",
-    "answer": "Chuck Schumer"
+    "answer": "Chuck Schumer",
+    "question-spanish": "¿Quién es uno de los Senadores de su estado ahora?",
+    "answer-spanish": "Chuck Schumer"
   },
   {
     "id": 21,
     "question": "The House of Representatives has how many voting members?",
-    "answer": "Four hundred thirty-five (435)"
+    "answer": "Four hundred thirty-five (435)",
+    "question-spanish": "¿Cuántos miembros con derecho a voto tiene la Cámara de Representantes?",
+    "answer-spanish": "Cuatrocientos treinta y cinco (435)"
   },
   {
     "id": 22,
     "question": "We elect a U.S. Representative for how many years?",
-    "answer": "Two (2)"
+    "answer": "Two (2)",
+    "question-spanish": "¿Por cuántos años elegimos a un Representante de los EE. UU.?",
+    "answer-spanish": "Dos (2)"
   },
   {
     "id": 23,
     "question": "Name your U.S. Representative.",
-    "answer": "Michael Lawler"
+    "answer": "Michael Lawler",
+    "question-spanish": "Nombra a tu Representante de los EE. UU.",
+    "answer-spanish": "Michael Lawler"
   },
   {
     "id": 24,
     "question": "Who does a U.S. Senator represent?",
-    "answer": "All people of the state"
+    "answer": "All people of the state",
+    "question-spanish": "¿A quién representa un Senador de los EE. UU.?",
+    "answer-spanish": "A todas las personas del estado"
   },
   {
     "id": 25,
     "question": "Why do some states have more Representatives than other states?",
-    "answer": "Because they have more people"
+    "answer": "Because they have more people",
+    "question-spanish": "¿Por qué algunos estados tienen más Representantes que otros estados?",
+    "answer-spanish": "Porque tienen más personas"
   },
   {
     "id": 26,
     "question": "We elect a President for how many years?",
-    "answer": "Four (4)"
+    "answer": "Four (4)",
+    "question-spanish": "¿Por cuántos años elegimos a un Presidente?",
+    "answer-spanish": "Cuatro (4)"
   },
   {
     "id": 27,
     "question": "In what month do we vote for President?",
-    "answer": "November"
+    "answer": "November",
+    "question-spanish": "¿En qué mes votamos para elegir al Presidente?",
+    "answer-spanish": "Noviembre"
   },
   {
     "id": 28,
     "question": "What is the name of the President of the United States now?",
-    "answer": "Donald Trump"
+    "answer": "Donald Trump",
+    "question-spanish": "¿Cuál es el nombre del Presidente de los Estados Unidos ahora?",
+    "answer-spanish": "Donald Trump"
   },
   {
     "id": 29,
     "question": "What is the name of the Vice President of the United States now?",
-    "answer": "JD Vance"
+    "answer": "JD Vance",
+    "question-spanish": "¿Cuál es el nombre del Vicepresidente de los Estados Unidos ahora?",
+    "answer-spanish": "JD Vance"
   },
   {
     "id": 30,
     "question": "If the President can no longer serve, who becomes President?",
-    "answer": "The Vice President"
+    "answer": "The Vice President",
+    "question-spanish": "Si el Presidente ya no puede ejercer el cargo, ¿quién se convierte en Presidente?",
+    "answer-spanish": "El Vicepresidente"
   },
   {
     "id": 31,
     "question": "If both the President and the Vice President can no longer serve, who becomes President?",
-    "answer": "The Speaker of the House"
+    "answer": "The Speaker of the House",
+    "question-spanish": "Si tanto el Presidente como el Vicepresidente ya no pueden ejercer el cargo, ¿quién se convierte en Presidente?",
+    "answer-spanish": "El Presidente de la Cámara de Representantes"
   },
   {
     "id": 32,
     "question": "Who is the Commander in Chief of the military?",
-    "answer": "The President"
+    "answer": "The President",
+    "question-spanish": "¿Quién es el Comandante en Jefe de las fuerzas armadas?",
+    "answer-spanish": "El Presidente"
   },
   {
     "id": 33,
     "question": "Who signs bills to become laws?",
-    "answer": "The President"
+    "answer": "The President",
+    "question-spanish": "¿Quién firma los proyectos de ley para que se conviertan en leyes?",
+    "answer-spanish": "El Presidente"
   },
   {
     "id": 34,
     "question": "Who vetoes bills?",
-    "answer": "The President"
+    "answer": "The President",
+    "question-spanish": "¿Quién veta los proyectos de ley?",
+    "answer-spanish": "El Presidente"
   },
   {
     "id": 35,
     "question": "What does the President's Cabinet do?",
-    "answer": "Advises the President"
+    "answer": "Advises the President",
+    "question-spanish": "¿Qué hace el Gabinete del Presidente?",
+    "answer-spanish": "Asesora al Presidente"
   },
   {
     "id": 36,
     "question": "What are two Cabinet-level positions?",
-    "answer": "Secretary of Education, Secretary of Transportation"
+    "answer": "Secretary of Education, Secretary of Transportation",
+    "question-spanish": "¿Cuáles son dos puestos a nivel de Gabinete?",
+    "answer-spanish": "Secretario de Educación, Secretario de Transporte"
   },
   {
     "id": 37,
     "question": "What does the judicial branch do?",
-    "answer": "Reviews laws"
+    "answer": "Reviews laws",
+    "question-spanish": "¿Qué hace la rama judicial?",
+    "answer-spanish": "Revisa las leyes"
   },
   {
     "id": 38,
     "question": "What is the highest court in the United States?",
-    "answer": "The Supreme Court"
+    "answer": "The Supreme Court",
+    "question-spanish": "¿Cuál es el tribunal más alto de los Estados Unidos?",
+    "answer-spanish": "La Corte Suprema"
   },
   {
     "id": 39,
     "question": "How many justices are on the Supreme Court?",
-    "answer": "Nine (9)"
+    "answer": "Nine (9)",
+    "question-spanish": "¿Cuántos jueces hay en la Corte Suprema?",
+    "answer-spanish": "Nueve (9)"
   },
   {
     "id": 40,
     "question": "Who is the Chief Justice of the United States now?",
-    "answer": "John Roberts"
+    "answer": "John Roberts",
+    "question-spanish": "¿Quién es el Presidente de la Corte Suprema de los Estados Unidos ahora?",
+    "answer-spanish": "John Roberts"
   },
   {
     "id": 41,
     "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
-    "answer": "To print money"
+    "answer": "To print money",
+    "question-spanish": "Bajo nuestra Constitución, algunos poderes pertenecen al gobierno federal. ¿Cuál es uno de los poderes del gobierno federal?",
+    "answer-spanish": "Imprimir dinero"
   },
   {
     "id": 42,
     "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
-    "answer": "Provide schooling and education"
+    "answer": "Provide schooling and education",
+    "question-spanish": "Bajo nuestra Constitución, algunos poderes pertenecen a los estados. ¿Cuál es uno de los poderes de los estados?",
+    "answer-spanish": "Proveer educación"
   },
   {
     "id": 43,
     "question": "Who is the Governor of your state now?",
-    "answer": "Kathy Hochul"
+    "answer": "Kathy Hochul",
+    "question-spanish": "¿Quién es la Gobernadora de su estado ahora?",
+    "answer-spanish": "Kathy Hochul"
   },
-
   {
     "id": 44,
     "question": "What is the capital of your state?",
-    "answer": "Albany"
+    "answer": "Albany",
+    "question-spanish": "¿Cuál es la capital de su estado?",
+    "answer-spanish": "Albany"
   },
   {
     "id": 45,
     "question": "What are the two major political parties in the United States?",
-    "answer": "Democratic and Republican"
+    "answer": "Democratic and Republican",
+    "question-spanish": "¿Cuáles son los dos principales partidos políticos en los Estados Unidos?",
+    "answer-spanish": "Demócrata y Republicano"
   },
-
   {
     "id": 46,
     "question": "What is the political party of the President now?",
-    "answer": "Republican (Party)"
+    "answer": "Republican (Party)",
+    "question-spanish": "¿Cuál es el partido político del Presidente ahora?",
+    "answer-spanish": "Republicano (Partido)"
   },
   {
     "id": 47,
     "question": "What is the name of the Speaker of the House of Representatives now?",
-    "answer": "Mike Johnson"
+    "answer": "Mike Johnson",
+    "question-spanish": "¿Cuál es el nombre del Presidente de la Cámara de Representantes ahora?",
+    "answer-spanish": "Mike Johnson"
   },
   {
     "id": 48,
     "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
-    "answer": "Any citizen can vote"
+    "answer": "Any citizen can vote",
+    "question-spanish": "Hay cuatro enmiendas a la Constitución sobre quién puede votar. Describe una de ellas.",
+    "answer-spanish": "Cualquier ciudadano puede votar"
   },
   {
     "id": 49,
     "question": "What is one responsibility that is only for United States citizens?",
-    "answer": "Serve on a jury"
+    "answer": "Serve on a jury",
+    "question-spanish": "¿Cuál es una responsabilidad que es solo para los ciudadanos de los Estados Unidos?",
+    "answer-spanish": "Servir en un jurado"
   },
   {
     "id": 50,
     "question": "Name one right only for United States citizens.",
-    "answer": "Run for federal office"
+    "answer": "Run for federal office",
+    "question-spanish": "Nombra un derecho solo para los ciudadanos de los Estados Unidos.",
+    "answer-spanish": "Postularse para un cargo federal"
   },
   {
     "id": 51,
     "question": "What are two rights of everyone living in the United States?",
-    "answer": "Freedom of speech, Freedom of religion"
+    "answer": "Freedom of speech, Freedom of religion",
+    "question-spanish": "¿Cuáles son dos derechos de todas las personas que viven en los Estados Unidos?",
+    "answer-spanish": "Libertad de expresión, Libertad de religión"
   },
   {
     "id": 52,
     "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
-    "answer": "The United States"
+    "answer": "The United States",
+    "question-spanish": "¿A qué mostramos lealtad cuando decimos el Juramento de Lealtad?",
+    "answer-spanish": "A los Estados Unidos"
   },
   {
     "id": 53,
     "question": "What is one promise you make when you become a United States citizen?",
-    "answer": "Obey the laws of the United States"
+    "answer": "Obey the laws of the United States",
+    "question-spanish": "¿Cuál es una promesa que haces cuando te conviertes en ciudadano de los Estados Unidos?",
+    "answer-spanish": "Obedecer las leyes de los Estados Unidos"
   },
-  { 
+  {
     "id": 54,
     "question": "How old do citizens have to be to vote for President?",
-    "answer": "Eighteen (18) and older"
+    "answer": "Eighteen (18) and older",
+    "question-spanish": "¿Cuántos años deben tener los ciudadanos para votar por el Presidente?",
+    "answer-spanish": "Dieciocho (18) años o más"
   },
   {
     "id": 55,
     "question": "What are two ways that Americans can participate in their democracy?",
-    "answer": "Vote, Join a political party"
+    "answer": "Vote, Join a political party",
+    "question-spanish": "¿Cuáles son dos maneras en las que los estadounidenses pueden participar en su democracia?",
+    "answer-spanish": "Votar, Unirse a un partido político"
   },
   {
     "id": 56,
     "question": "When is the last day you can send in federal income tax forms?",
-    "answer": "April 15"
+    "answer": "April 15",
+    "question-spanish": "¿Cuándo es el último día que puedes enviar los formularios de impuestos federales?",
+    "answer-spanish": "15 de abril"
   },
   {
     "id": 57,
     "question": "When must all men register for the Selective Service?",
-    "answer": "At age eighteen (18)"
+    "answer": "At age eighteen (18)",
+    "question-spanish": "¿Cuándo deben registrarse todos los hombres para el Servicio Selectivo?",
+    "answer-spanish": "A los dieciocho (18) años"
   },
   {
     "id": 58,
     "question": "What is one reason colonists came to America?",
-    "answer": "Freedom"
+    "answer": "Freedom",
+    "question-spanish": "¿Cuál es una razón por la que los colonos vinieron a América?",
+    "answer-spanish": "Libertad"
   },
   {
     "id": 59,
     "question": "Who lived in America before the Europeans arrived?",
-    "answer": "Native Americans"
+    "answer": "Native Americans",
+    "question-spanish": "¿Quiénes vivían en América antes de la llegada de los europeos?",
+    "answer-spanish": "Los nativos americanos"
   },
   {
     "id": 60,
     "question": "What group of people was taken to America and sold as slaves?",
-    "answer": "Africans"
+    "answer": "Africans",
+    "question-spanish": "¿Qué grupo de personas fue llevado a América y vendido como esclavos?",
+    "answer-spanish": "Los africanos"
   },
   {
     "id": 61,
     "question": "Why did the colonists fight the British?",
-    "answer": "Because of high taxes (taxation without representation)"
+    "answer": "Because of high taxes (taxation without representation)",
+    "question-spanish": "¿Por qué lucharon los colonos contra los británicos?",
+    "answer-spanish": "Por los altos impuestos (impuestos sin representación)"
   },
   {
     "id": 62,
     "question": "Who wrote the Declaration of Independence?",
-    "answer": "(Thomas) Jefferson"
+    "answer": "(Thomas) Jefferson",
+    "question-spanish": "¿Quién escribió la Declaración de Independencia?",
+    "answer-spanish": "(Thomas) Jefferson"
   },
   {
     "id": 63,
     "question": "When was the Declaration of Independence adopted?",
-    "answer": "July 4, 1776"
+    "answer": "July 4, 1776",
+    "question-spanish": "¿Cuándo fue adoptada la Declaración de Independencia?",
+    "answer-spanish": "4 de julio de 1776"
   },
   {
     "id": 64,
     "question": "There were 13 original states. Name three.",
-    "answer": "New York, New Jersey, Pennsylvania"
+    "answer": "New York, New Jersey, Pennsylvania",
+    "question-spanish": "Hubo 13 estados originales. Nombra tres.",
+    "answer-spanish": "Nueva York, Nueva Jersey, Pensilvania"
   },
   {
     "id": 65,
     "question": "What happened at the Constitutional Convention?",
-    "answer": "The Constitution was written."
+    "answer": "The Constitution was written",
+    "question-spanish": "¿Qué ocurrió en la Convención Constitucional?",
+    "answer-spanish": "Se escribió la Constitución."
   },
   {
     "id": 66,
     "question": "When was the Constitution written?",
-    "answer": "1787"
+    "answer": "1787",
+    "question-spanish": "¿Cuándo fue escrita la Constitución?",
+    "answer-spanish": "1787"
   },
   {
     "id": 67,
     "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
-    "answer": "(John) Jay"
+    "answer": "(John) Jay",
+    "question-spanish": "Los Papeles Federalistas apoyaron la aprobación de la Constitución de los EE.UU. Nombra uno de los escritores.",
+    "answer-spanish": "(John) Jay"
   },
   {
     "id": 68,
     "question": "What is one thing Benjamin Franklin is famous for?",
-    "answer": "U.S. diplomat"
+    "answer": "U.S. diplomat",
+    "question-spanish": "¿Por qué es famoso Benjamin Franklin?",
+    "answer-spanish": "Diplomático de los EE.UU."
   },
   {
     "id": 69,
     "question": "Who is the “Father of Our Country”?",
-    "answer": "(George) Washington"
+    "answer": "(George) Washington",
+    "question-spanish": "¿Quién es el “Padre de Nuestra Nación”?",
+    "answer-spanish": "(George) Washington"
   },
   {
     "id": 70,
     "question": "Who was the first President?",
-    "answer": "(George) Washington"
+    "answer": "(George) Washington",
+    "question-spanish": "¿Quién fue el primer Presidente?",
+    "answer-spanish": "(George) Washington"
   },
   {
     "id": 71,
     "question": "What territory did the United States buy from France in 1803?",
-    "answer": "Louisiana"
+    "answer": "Louisiana",
+    "question-spanish": "¿Qué territorio compró Estados Unidos a Francia en 1803?",
+    "answer-spanish": "Louisiana"
   },
   {
     "id": 72,
     "question": "Name one war fought by the United States in the 1800s.",
-    "answer": "The Civil War"
+    "answer": "The Civil War",
+    "question-spanish": "Nombra una guerra librada por los Estados Unidos en los 1800s.",
+    "answer-spanish": "La Guerra Civil"
   },
   {
     "id": 73,
     "question": "Name the U.S. war between the North and the South.",
-    "answer": "The Civil War"
+    "answer": "The Civil War",
+    "question-spanish": "Nombra la guerra de los EE.UU. entre el Norte y el Sur.",
+    "answer-spanish": "La Guerra Civil"
   },
   {
     "id": 74,
     "question": "Name one problem that led to the Civil War.",
-    "answer": "Slavery"
+    "answer": "Slavery",
+    "question-spanish": "Nombra un problema que condujo a la Guerra Civil.",
+    "answer-spanish": "Esclavitud"
   },
   {
     "id": 75,
     "question": "What was one important thing that Abraham Lincoln did?",
-    "answer": "Freed the slaves (Emancipation Proclamation)"
+    "answer": "Freed the slaves (Emancipation Proclamation)",
+    "question-spanish": "¿Qué hizo Abraham Lincoln que fue importante?",
+    "answer-spanish": "Liberó a los esclavos (Proclamación de Emancipación)"
   },
   {
     "id": 76,
     "question": "What did the Emancipation Proclamation do?",
-    "answer": "Freed the slaves"
+    "answer": "Freed the slaves",
+    "question-spanish": "¿Qué hizo la Proclamación de Emancipación?",
+    "answer-spanish": "Liberó a los esclavos"
   },
   {
     "id": 77,
     "question": "What did Susan B. Anthony do?",
-    "answer": "Fought for women's rights, Fought for civil rights"
+    "answer": "Fought for women's rights",
+    "question-spanish": "¿Qué hizo Susan B. Anthony?",
+    "answer-spanish": "Luchó por los derechos de las mujeres, Luchó por los derechos civiles"
   },
   {
     "id": 78,
     "question": "Name one war fought by the United States in the 1900s.",
-    "answer": "World War I"
+    "answer": "World War 1",
+    "question-spanish": "Nombra una guerra librada por los Estados Unidos en los 1900s.",
+    "answer-spanish": "La Primera Guerra Mundial"
   },
   {
     "id": 79,
     "question": "Who was President during World War I?",
-    "answer": "(Woodrow) Wilson"
+    "answer": "(Woodrow) Wilson",
+    "question-spanish": "¿Quién era el Presidente durante la Primera Guerra Mundial?",
+    "answer-spanish": "(Woodrow) Wilson"
   },
   {
     "id": 80,
     "question": "Who was President during the Great Depression and World War II?",
-    "answer": "(Franklin) Roosevelt"
+    "answer": "(Franklin) Roosevelt",
+    "question-spanish": "¿Quién era el Presidente durante la Gran Depresión y la Segunda Guerra Mundial?",
+    "answer-spanish": "(Franklin) Roosevelt"
   },
   {
     "id": 81,
     "question": "Who did the United States fight in World War II?",
-    "answer": "Japan, Germany, and Italy"
+    "answer": "Japan, Germany, and Italy",
+    "question-spanish": "¿Contra quién luchó Estados Unidos en la Segunda Guerra Mundial?",
+    "answer-spanish": "Japón, Alemania e Italia"
   },
   {
     "id": 82,
     "question": "Before he was President, Eisenhower was a general. What war was he in?",
-    "answer": "World War II"
+    "answer": "World War 2",
+    "question-spanish": "Antes de ser Presidente, Eisenhower era general. ¿En qué guerra estuvo?",
+    "answer-spanish": "La Segunda Guerra Mundial"
   },
-  {
-    "id": 83,
-    "question": "During the Cold War, what was the main concern of the United States?",
-    "answer": "Communism"
-  },
-  {
-    "id": 84,
-    "question": "What movement tried to end racial discrimination?",
-    "answer": "Civil rights movement"
-  },
-  {
-    "id": 85,
-    "question": "What did Martin Luther King, Jr. do?",
-    "answer": "Fought for civil rights, Worked for equality for all Americans"
-  },
-  {
-    "id": 86,
-    "question": "What major event happened on September 11, 2001, in the United States?",
-    "answer": "Terrorists attacked the United States."
-  },
-  {
-    "id": 87,
-    "question": "Name one American Indian tribe in the United States.",
-    "answer": "Pueblo"
-  },
-  {
-    "id": 88,
-    "question": "Name one of the two longest rivers in the United States.",
-    "answer": "Mississippi River"
-  },
-  {
-    "id": 89,
-    "question": "What ocean is on the West Coast of the United States?",
-    "answer": "Pacific Ocean"
-  },
-  {
-    "id": 90,
-    "question": "What ocean is on the East Coast of the United States?",
-    "answer": "Atlantic Ocean"
-  },
-  {
-    "id": 91,
-    "question": "Name one U.S. territory.",
-    "answer": "Puerto Rico"
-  },
-  {
-    "id": 92,
-    "question": "Name one state that borders Canada.",
-    "answer": "New York"
-  },
-  {
-    "id": 93,
-    "question": "Name one state that borders Mexico.",
-    "answer": "California"
-  },
-  {
-    "id": 94,
-    "question": "What is the capital of the United States?",
-    "answer": "Washington D.C."
-  },
-  {
-    "id": 95,
-    "question": "Where is the Statue of Liberty?",
-    "answer": "New York Harbor"
-  },
-  {
-    "id": 96,
-    "question": "Why does the flag have 13 stripes?",
-    "answer": "Because there were 13 original colonies"
-  },
-  {
-    "id": 97,
-    "question": "Why does the flag have 50 stars?",
-    "answer": "Because there are 50 states"
-  },
-  {
-    "id": 98,
-    "question": "What is the name of the national anthem?",
-    "answer": "The Star-Spangled Banner"
-  },
-  {
-    "id": 99,
-    "question": "When do we celebrate Independence Day?",
-    "answer": "July 4"
-  },
-  {
-    "id": 100,
-    "question": "Name two national U.S. holidays.",
-    "answer": "New Year's Day, Christmas Day"
-  }
+  [
+    {
+      "id": 83,
+      "question": "During the Cold War, what was the main concern of the United States?",
+      "answer": "Communism",
+      "question-spanish": "Durante la Guerra Fría, ¿cuál era la principal preocupación de los Estados Unidos?",
+      "answer-spanish": "El comunismo"
+    },
+    {
+      "id": 84,
+      "question": "What movement tried to end racial discrimination?",
+      "answer": "Civil rights movement",
+      "question-spanish": "¿Qué movimiento intentó terminar con la discriminación racial?",
+      "answer-spanish": "El movimiento por los derechos civiles"
+    },
+    {
+      "id": 85,
+      "question": "What did Martin Luther King, Jr. do?",
+      "answer": "Fought for civil rights, Worked for equality for all Americans",
+      "question-spanish": "¿Qué hizo Martin Luther King, Jr.?",
+      "answer-spanish": "Luchó por los derechos civiles, trabajó por la igualdad para todos los estadounidenses"
+    },
+    {
+      "id": 86,
+      "question": "What major event happened on September 11, 2001, in the United States?",
+      "answer": "Terrorists attacked the United States",
+      "question-spanish": "¿Qué evento importante ocurrió el 11 de septiembre de 2001 en los Estados Unidos?",
+      "answer-spanish": "Terroristas atacaron a los Estados Unidos."
+    },
+    {
+      "id": 87,
+      "question": "Name one American Indian tribe in the United States.",
+      "answer": "Pueblo",
+      "question-spanish": "Nombra una tribu india americana en los Estados Unidos.",
+      "answer-spanish": "Pueblo"
+    },
+    {
+      "id": 88,
+      "question": "Name one of the two longest rivers in the United States.",
+      "answer": "Mississippi River",
+      "question-spanish": "Nombra uno de los dos ríos más largos de los Estados Unidos.",
+      "answer-spanish": "Río Misisipi"
+    },
+    {
+      "id": 89,
+      "question": "What ocean is on the West Coast of the United States?",
+      "answer": "Pacific Ocean",
+      "question-spanish": "¿Qué océano está en la costa oeste de los Estados Unidos?",
+      "answer-spanish": "Océano Pacífico"
+    },
+    {
+      "id": 90,
+      "question": "What ocean is on the East Coast of the United States?",
+      "answer": "Atlantic Ocean",
+      "question-spanish": "¿Qué océano está en la costa este de los Estados Unidos?",
+      "answer-spanish": "Océano Atlántico"
+    },
+    {
+      "id": 91,
+      "question": "Name one U.S. territory.",
+      "answer": "Puerto Rico",
+      "question-spanish": "Nombra uno de los territorios de los EE.UU.",
+      "answer-spanish": "Puerto Rico"
+    },
+    {
+      "id": 92,
+      "question": "Name one state that borders Canada.",
+      "answer": "New York",
+      "question-spanish": "Nombra un estado que limite con Canadá.",
+      "answer-spanish": "Nueva York"
+    },
+    {
+      "id": 93,
+      "question": "Name one state that borders Mexico.",
+      "answer": "California",
+      "question-spanish": "Nombra un estado que limite con México.",
+      "answer-spanish": "California"
+    },
+    {
+      "id": 94,
+      "question": "What is the capital of the United States?",
+      "answer": "Washington D.C.",
+      "question-spanish": "¿Cuál es la capital de los Estados Unidos?",
+      "answer-spanish": "Washington D.C."
+    },
+    {
+      "id": 95,
+      "question": "Where is the Statue of Liberty?",
+      "answer": "New York Harbor",
+      "question-spanish": "¿Dónde está la Estatua de la Libertad?",
+      "answer-spanish": "Puerto de Nueva York"
+    },
+    {
+      "id": 96,
+      "question": "Why does the flag have 13 stripes?",
+      "answer": "Because there were 13 original colonies",
+      "question-spanish": "¿Por qué la bandera tiene 13 franjas?",
+      "answer-spanish": "Porque había 13 colonias originales"
+    },
+    {
+      "id": 97,
+      "question": "Why does the flag have 50 stars?",
+      "answer": "Because there are 50 states",
+      "question-spanish": "¿Por qué la bandera tiene 50 estrellas?",
+      "answer-spanish": "Porque hay 50 estados"
+    },
+    {
+      "id": 98,
+      "question": "What is the name of the national anthem?",
+      "answer": "The Star-Spangled Banner",
+      "question-spanish": "¿Cómo se llama el himno nacional?",
+      "answer-spanish": "The Star-Spangled Banner"
+    },
+    {
+      "id": 99,
+      "question": "When do we celebrate Independence Day?",
+      "answer": "July 4",
+      "question-spanish": "¿Cuándo celebramos el Día de la Independencia?",
+      "answer-spanish": "4 de julio"
+    },
+    {
+      "id": 100,
+      "question": "Name two national U.S. holidays.",
+      "answer": "New Year's Day, Christmas Day",
+      "question-spanish": "Nombra dos días festivos nacionales de los EE.UU.",
+      "answer-spanish": "Año Nuevo, Día de Navidad"
+    }
+  ]
 ]

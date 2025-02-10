@@ -69,4 +69,49 @@ export default StyleSheet.create({
     fontFamily: "MerriweatherSans_400Regular",
     marginLeft: 30,
   },
+
+  card: {
+    backgroundColor: "#4B407C",
+    height: 300,
+    width: "100%",
+    borderRadius: 15,
+    marginTop: 20,
+    marginBottom: 10,
+    justifyContent: "center",
+    paddingHorizontal: 30,
+  },
+  card_text: {
+    color: "#FFFFFF",
+    fontSize: 30,
+    fontFamily: "Merriweather_700Bold",
+  },
+
+  answer: {
+    backgroundColor: "#FFFFFF",
+    height: 200,
+    width: "100%",
+    borderRadius: 15,
+
+    padding: 30,
+
+    paddingHorizontal: 30,
+  },
+  answer_text: {
+    color: "#000000",
+    fontSize: 30,
+    fontFamily: "Merriweather_700Bold",
+    lineHeight: 50,
+  },
+  next_button: {
+    backgroundColor: "#CEC5F2",
+    borderRadius: 15,
+    height: 40,
+    justifyContent: "center",
+    paddingHorizontal: 30,
+  },
+  next_button_text: {
+    color: "#1E1E1E",
+    fontSize: 16,
+    fontFamily: "MerriweatherSans_400Regular",
+  },
 });
