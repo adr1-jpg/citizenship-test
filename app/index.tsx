@@ -1,14 +1,41 @@
-import {
-  Image,
-  Text,
-  View,
-  Pressable,
-} from "react-native";
-import styles from "./styles"; 
+import { Image, Text, View, Pressable } from "react-native";
+import styles from "./styles";
 import { useRouter } from "expo-router";
 
-export default function Home() {
+import {
+  useFonts,
+  Merriweather_400Regular,
+  Merriweather_700Bold,
+} from "@expo-google-fonts/merriweather";
+import {
+  MerriweatherSans_400Regular,
+  MerriweatherSans_700Bold,
+} from "@expo-google-fonts/merriweather-sans";
+
+import React, { useEffect } from "react";
+import * as SplashScreen from "expo-splash-screen";
+
+export default function App() {
   const router = useRouter();
+  const [fontsLoaded] = useFonts({
+    Merriweather_400Regular,
+    Merriweather_700Bold,
+    MerriweatherSans_400Regular,
+    MerriweatherSans_700Bold,
+  });
+
+  useEffect(() => {
+    async function prepare() {
+      if (fontsLoaded) {
+        await SplashScreen.hideAsync();
+      }
+    }
+    prepare();
+  }, [fontsLoaded]);
+
+  if (!fontsLoaded) {
+    return null; // Prevents rendering until fonts are loaded
+  }
 
   return (
     <View style={styles.container}>

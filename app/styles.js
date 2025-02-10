@@ -1,15 +1,5 @@
 import { StyleSheet } from "react-native";
 
-import {
-  useFonts,
-  Merriweather_400Regular,
-  Merriweather_700Bold,
-} from "@expo-google-fonts/merriweather";
-import {
-  MerriweatherSans_400Regular,
-  MerriweatherSans_700Bold,
-} from "@expo-google-fonts/merriweather-sans";
-
 export default StyleSheet.create({
   container: {
     flex: 1,
@@ -31,18 +21,21 @@ export default StyleSheet.create({
 
   intro_container: {
     backgroundColor: "#4B407C",
-    height: 275,
+    height: 325,
     width: "100%",
     borderRadius: 15,
     marginTop: 20,
     marginBottom: 30,
     justifyContent: "center",
+
+
   },
   intro_text: {
     color: "#F9F6F1",
-    fontSize: 20,
+    fontSize: 24,
     fontFamily: "MerriweatherSans_400Regular",
-    padding: 30,
+    paddingHorizontal: 30,
+
   },
 
   buttons: {
@@ -72,13 +65,15 @@ export default StyleSheet.create({
 
   card: {
     backgroundColor: "#4B407C",
-    height: 300,
+    height: 400,
     width: "100%",
     borderRadius: 15,
     marginTop: 20,
     marginBottom: 10,
     justifyContent: "center",
     paddingHorizontal: 30,
+    display: "flex",
+    flexDirection: "row"
   },
   card_text: {
     color: "#FFFFFF",
@@ -86,16 +81,17 @@ export default StyleSheet.create({
     fontFamily: "Merriweather_700Bold",
   },
 
-  answer: {
+  answer_card: {
     backgroundColor: "#FFFFFF",
-    height: 200,
+    height: 300,
     width: "100%",
     borderRadius: 15,
-
     padding: 30,
-
     paddingHorizontal: 30,
+
   },
+
+
   answer_text: {
     color: "#000000",
     fontSize: 30,
@@ -114,4 +110,7 @@ export default StyleSheet.create({
     fontSize: 16,
     fontFamily: "MerriweatherSans_400Regular",
   },
+  large_audio_button: {
+    // width: 100,
+  }
 });
