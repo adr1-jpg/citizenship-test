@@ -1,11 +1,19 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+
+const { height } = Dimensions.get("window"); // Get screen height
 
 export default StyleSheet.create({
+  safe_area: {
+    flex: 1,
+    backgroundColor: "#F9F6F1",
+    position: "absolute",
+    height: height,
+    width: "100%",
+  },
   container: {
     flex: 1,
     paddingTop: 20,
     paddingHorizontal: 30,
-    backgroundColor: "#F9F6F1",
   },
   header_container: {
     display: "flex",
@@ -21,21 +29,18 @@ export default StyleSheet.create({
 
   intro_container: {
     backgroundColor: "#4B407C",
-    height: 325,
+
     width: "100%",
     borderRadius: 15,
     marginTop: 20,
     marginBottom: 30,
     justifyContent: "center",
-
-
   },
   intro_text: {
     color: "#F9F6F1",
     fontSize: 24,
     fontFamily: "MerriweatherSans_400Regular",
     paddingHorizontal: 30,
-
   },
 
   buttons: {
@@ -65,32 +70,31 @@ export default StyleSheet.create({
 
   card: {
     backgroundColor: "#4B407C",
-    height: 400,
+    paddingTop: 60,
+    paddingBottom: 30,
     width: "100%",
     borderRadius: 15,
     marginTop: 20,
     marginBottom: 10,
-    justifyContent: "center",
-    paddingHorizontal: 30,
+    justifyContent: "flex-start",
+    paddingHorizontal: 15,
     display: "flex",
-    flexDirection: "row"
+    flexDirection: "row",
   },
   card_text: {
     color: "#FFFFFF",
-    fontSize: 30,
+    fontSize: 24,
     fontFamily: "Merriweather_700Bold",
   },
 
   answer_card: {
     backgroundColor: "#FFFFFF",
-    height: 300,
+    maxHeight: height * 0.4,
     width: "100%",
     borderRadius: 15,
     padding: 30,
-    paddingHorizontal: 30,
-
+    paddingHorizontal: 15,
   },
-
 
   answer_text: {
     color: "#000000",
@@ -98,12 +102,19 @@ export default StyleSheet.create({
     fontFamily: "Merriweather_700Bold",
     lineHeight: 50,
   },
+  next_button_container: {
+    position: "absolute",
+    bottom: 20,
+    left: 0,
+    right: 0,
+    alignItems: "center", // This centers the button horizontally
+  },
   next_button: {
     backgroundColor: "#CEC5F2",
-    borderRadius: 15,
-    height: 40,
-    justifyContent: "center",
-    paddingHorizontal: 30,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 8,
+    alignSelf: "center",
   },
   next_button_text: {
     color: "#1E1E1E",
@@ -112,5 +123,5 @@ export default StyleSheet.create({
   },
   large_audio_button: {
     // width: 100,
-  }
+  },
 });
