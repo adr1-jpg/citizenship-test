@@ -112,10 +112,10 @@ export default function Home() {
                                 <Image
                                   source={require("../assets/images/small-audio.png")}
                                   style={{
-                                    width: 25,
-                                    height: 25,
+                                    width: 30,
+                                    height: 30,
                                     marginLeft: 5,
-                                    top: 4,
+                                    top: 5,
                                   }}
                                 />
                               </Pressable>
@@ -135,10 +135,10 @@ export default function Home() {
                                 <Image
                                   source={require("../assets/images/small-audio.png")}
                                   style={{
-                                    width: 25,
-                                    height: 25,
+                                    width: 30,
+                                    height: 30,
                                     marginLeft: 5,
-                                    top: 4,
+                                    top: 5,
                                   }}
                                 />
                               </Pressable>
