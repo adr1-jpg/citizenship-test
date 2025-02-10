@@ -50,7 +50,7 @@ export default function App() {
         </View>
 
         <View style={{ alignContent: "center", alignItems: "center" }}>
-          <View style={styles.intro_container}>
+          <View style={[styles.intro_container, { paddingVertical: 20 }]}>
             <Text style={styles.intro_text}>
               ¡Hola!{"\n\n"}
               Haz clic en 'Practicar' para aprender las preguntas y cómo
