@@ -67,13 +67,13 @@ export default function App() {
               <Text style={styles.button_text_english}>Practice</Text>
               <Text style={styles.button_text_spanish}>Practicar</Text>
             </Pressable>
-            {/* <Pressable
-            style={styles.button_container}
-            onPress={() => router.push("/quiz")}
-          >
-            <Text style={styles.button_text_english}>Test</Text>
-            <Text style={styles.button_text_spanish}>Prueba</Text>
-          </Pressable> */}
+            <Pressable
+              style={styles.button_container}
+              onPress={() => router.push("/quiz")}
+            >
+              <Text style={styles.button_text_english}>Test</Text>
+              <Text style={styles.button_text_spanish}>Prueba</Text>
+            </Pressable>
           </View>
         </View>
       </View>

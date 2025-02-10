@@ -2,7 +2,7 @@ import {
   Image,
   Text,
   View,
-  Button,
+  Switch,
   Pressable,
   ScrollView,
   TouchableOpacity,
@@ -25,6 +25,7 @@ export default function Home() {
     question: string;
     answer: string;
   };
+
 
   const [currentQuestion, setCurrentQuestion] = useState<Question>();
 
@@ -76,7 +77,7 @@ export default function Home() {
             >
               <Text style={styles.card_text}>
                 {currentQuestion ? (
-                  <Text>{currentQuestion.question}</Text>
+                  <Text style={styles.white_text}>{currentQuestion.question}</Text>
                 ) : (
                   <Text>Loading...</Text>
                 )}
@@ -166,6 +167,8 @@ export default function Home() {
               }}
             />
           </View>
+
+        
 
           <View style={styles.next_button_container}>
             <TouchableOpacity

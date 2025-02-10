@@ -81,10 +81,29 @@ export default StyleSheet.create({
     display: "flex",
     flexDirection: "row",
   },
+
+  test_card_container: {
+    borderRadius: 15,
+    marginTop: 20,
+    marginBottom: 10,
+    padding: 30,
+    width: "100%",
+    paddingHorizontal: 15,
+    display: "flex",
+
+    height: height * 0.7,
+  },
+
   card_text: {
-    color: "#FFFFFF",
+
     fontSize: 24,
     fontFamily: "Merriweather_700Bold",
+  },
+  white_text: {
+    color: "#FFFFFF",
+  },
+  black_text: {
+    color: "#000000",
   },
 
   answer_card: {
