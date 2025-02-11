@@ -2,7 +2,6 @@ import {
   Image,
   Text,
   View,
-  Switch,
   Pressable,
   ScrollView,
   TouchableOpacity,
@@ -12,38 +11,71 @@ import { LinearGradient } from "expo-linear-gradient";
 import React, { useState, useEffect } from "react";
 import { useRouter } from "expo-router";
 import styles from "./styles";
-import english from "../assets/questions-english.json"; // Import JSON file
-import spanish from "../assets/questions-spanish.json";
-import * as Speech from "expo-speech";
+import english_questions from "../assets/questions-english.json";
 import speak from "./utilities/speechToText";
 import { SafeAreaView } from "react-native-safe-area-context";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function Home() {
   const router = useRouter();
 
-  type Question = {
+  interface Question {
+    id: number;
     question: string;
     answer: string;
-  };
-
+    questionSpanish: string;
+    answerSpanish: string;
+    favorite: boolean;
+  }
 
   const [currentQuestion, setCurrentQuestion] = useState<Question>();
 
-  const [language, setLanguage] = useState("english");
+  const [favorites, setFavorites] = useState<number[]>([]); // Store favorite question IDs
 
   useEffect(() => {
+    loadFavorites();
     getRandomQuestion();
   }, []);
 
   const getRandomQuestion = () => {
-    const questions = language === "english" ? english : spanish;
+    const questions: Question[] = english_questions;
 
     const randomIndex = Math.floor(Math.random() * questions.length);
     const question = {
-      question: (questions as any[])[randomIndex].question,
-      answer: (questions as any[])[randomIndex].answer,
+      ...questions[randomIndex],
+      favorite: favorites.includes(questions[randomIndex].id), // Check if it's favorited
     };
     setCurrentQuestion(question);
+  };
+
+  // Load favorite question IDs from AsyncStorage
+  const loadFavorites = async () => {
+    try {
+      const savedFavorites = await AsyncStorage.getItem("favorites");
+      if (savedFavorites) {
+        setFavorites(JSON.parse(savedFavorites));
+      }
+    } catch (error) {
+      console.error("Failed to load favorites:", error);
+    }
+  };
+
+  // Toggle favorite status and save to AsyncStorage
+  const toggleFavorite = async (id: number) => {
+    const updatedFavorites = favorites.includes(id)
+      ? favorites.filter((favId) => favId !== id) // Remove if already favorited
+      : [...favorites, id]; // Add if not favorited
+
+    setFavorites(updatedFavorites);
+    await AsyncStorage.setItem("favorites", JSON.stringify(updatedFavorites));
+
+    // Update current question's favorite status
+    if (currentQuestion && currentQuestion.id === id) {
+      setCurrentQuestion({
+        ...currentQuestion,
+        favorite: updatedFavorites.includes(id),
+      });
+    }
   };
 
   return (
@@ -77,7 +109,9 @@ export default function Home() {
             >
               <Text style={styles.card_text}>
                 {currentQuestion ? (
-                  <Text style={styles.white_text}>{currentQuestion.question}</Text>
+                  <Text style={styles.white_text}>
+                    {currentQuestion.question}
+                  </Text>
                 ) : (
                   <Text>Loading...</Text>
                 )}
@@ -113,10 +147,10 @@ export default function Home() {
                                 <Image
                                   source={require("../assets/images/small-audio.png")}
                                   style={{
-                                    width: 30,
-                                    height: 30,
+                                    width: 35,
+                                    height: 35,
                                     marginLeft: 5,
-                                    top: 5,
+                                    top: 10,
                                   }}
                                 />
                               </Pressable>
@@ -136,10 +170,10 @@ export default function Home() {
                                 <Image
                                   source={require("../assets/images/small-audio.png")}
                                   style={{
-                                    width: 30,
-                                    height: 30,
+                                    width: 35,
+                                    height:35,
                                     marginLeft: 5,
-                                    top: 5,
+                                    top: 10,
                                   }}
                                 />
                               </Pressable>
@@ -168,15 +202,40 @@ export default function Home() {
             />
           </View>
 
-        
-
-          <View style={styles.next_button_container}>
-            <TouchableOpacity
-              style={styles.next_button}
-              onPress={getRandomQuestion}
+          <View
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              width: "100%",
+              alignContent: "center",
+              marginTop: 20,
+              position: "absolute",
+              bottom: 20,
+            }}
+          >
+            <Pressable
+              onPress={() =>
+                currentQuestion && toggleFavorite(currentQuestion.id)
+              }
             >
-              <Text style={styles.next_button_text}>Next Question</Text>
-            </TouchableOpacity>
+              <Image
+                style={{ width: 40, height: 40 }}
+                source={
+                  currentQuestion?.favorite
+                    ? require("../assets/images/heart-solid.png")
+                    : require("../assets/images/heart-outline.png")
+                }
+              />
+            </Pressable>
+            <View>
+              <TouchableOpacity
+                style={styles.next_button}
+                onPress={getRandomQuestion}
+              >
+                <Text style={styles.next_button_text}>Next Question</Text>
+              </TouchableOpacity>
+            </View>
           </View>
         </View>
       </View>

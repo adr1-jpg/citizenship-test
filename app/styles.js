@@ -55,6 +55,12 @@ export default StyleSheet.create({
     height: 90,
     justifyContent: "center",
   },
+  button_container_gold: {
+    backgroundColor: "#EBC14A",
+    borderRadius: 20,
+    height: 90,
+    justifyContent: "center",
+  },
   button_text_english: {
     color: "#1E1E1E",
     fontSize: 26,
@@ -73,6 +79,7 @@ export default StyleSheet.create({
     paddingTop: 60,
     paddingBottom: 30,
     width: "100%",
+    height: height * 0.3,
     borderRadius: 15,
     marginTop: 20,
     marginBottom: 10,
@@ -91,11 +98,33 @@ export default StyleSheet.create({
     paddingHorizontal: 15,
     display: "flex",
 
-    height: height * 0.7,
+    height: height * 0.6,
+  },
+  fav_card_container: {
+    borderRadius: 15,
+    marginTop: 20,
+    marginBottom: 10,
+    padding: 30,
+    width: "100%",
+    paddingHorizontal: 15,
+    display: "flex",
+
+    height: height * 0.3,
+    justifyContent: "center",
+  },
+  fav_text: {
+    fontSize: 24,
+    color: "#FFFFFF",
+    fontFamily: "Merriweather_700Bold",
+  },
+  fav_answer_text: {
+    fontSize: 24,
+    color: "#000000",
+    fontFamily: "MerriweatherSans_400Regular",
+    marginTop: 10,
   },
 
   card_text: {
-
     fontSize: 24,
     fontFamily: "Merriweather_700Bold",
   },
@@ -129,7 +158,7 @@ export default StyleSheet.create({
     alignItems: "center", // This centers the button horizontally
   },
   next_button: {
-    backgroundColor: "#CEC5F2",
+    backgroundColor: "#EBC14A",
     paddingHorizontal: 20,
     paddingVertical: 10,
     borderRadius: 8,
@@ -138,7 +167,7 @@ export default StyleSheet.create({
   next_button_text: {
     color: "#1E1E1E",
     fontSize: 16,
-    fontFamily: "MerriweatherSans_400Regular",
+    fontFamily: "MerriweatherSans_700Bold",
   },
   large_audio_button: {
     // width: 100,

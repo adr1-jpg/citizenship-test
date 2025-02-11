@@ -38,6 +38,8 @@ export default function App() {
     return null; // Prevents rendering until fonts are loaded
   }
 
+  
+
   return (
     <SafeAreaView style={styles.safe_area}>
       <View style={styles.container}>
@@ -73,6 +75,14 @@ export default function App() {
             >
               <Text style={styles.button_text_english}>Test</Text>
               <Text style={styles.button_text_spanish}>Prueba</Text>
+            </Pressable>
+
+            <Pressable
+              style={styles.button_container_gold}
+              onPress={() => router.push("/favorites")}
+            >
+              <Text style={styles.button_text_english}>Favorites</Text>
+              <Text style={styles.button_text_spanish}>Favoritos</Text>
             </Pressable>
           </View>
         </View>
