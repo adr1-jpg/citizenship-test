@@ -8,17 +8,17 @@ import {
   ScrollView,
   SafeAreaView,
 } from "react-native";
-import { useRouter } from "expo-router";
+
 
 import React, { useState, useEffect } from "react";
-import english from "../assets/questions-english.json"; // Import JSON file
-import spanish from "../assets/questions-spanish.json";
-import styles from "./styles";
-import speak from "./utilities/speechToText";
+import english from "../../assets/questions-english.json"; // Import JSON file
+import spanish from "../../assets/questions-spanish.json";
+import styles from "../styles";
+import speak from "../utilities/speechToText";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-export default function Quiz() {
-  const router = useRouter();
+const Quiz = ({ navigation }: any) => {
+
   interface Question {
     id: number;
     question: string;
@@ -77,9 +77,9 @@ export default function Quiz() {
     <SafeAreaView style={styles.safe_area}>
       <View style={styles.container}>
         <View style={styles.header_container}>
-          <Pressable onPress={() => router.push("/")}>
+          <Pressable onPress={() => navigation.navigate('Home')}>
             <Image
-              source={require("../assets/images/logo.png")}
+              source={require("../../assets/images/logo.png")}
               style={{ width: 40, height: 40 }}
             />
           </Pressable>
@@ -153,7 +153,7 @@ export default function Quiz() {
               >
               <Image
                 style={{ width: 50, height: 50 }}
-                source={require("../assets/images/purple-large-audio.png")}
+                source={require("../../assets/images/purple-large-audio.png")}
               />
               </Pressable>
           <View
@@ -176,8 +176,8 @@ export default function Quiz() {
                 style={{ width: 40, height: 40 }}
                 source={
                   currentQuestion?.favorite
-                    ? require("../assets/images/heart-solid.png")
-                    : require("../assets/images/heart-outline.png")
+                    ? require("../../assets/images/heart-solid.png")
+                    : require("../../assets/images/heart-outline.png")
                 }
               />
             </Pressable>
@@ -196,3 +196,5 @@ export default function Quiz() {
     </SafeAreaView>
   );
 }
+
+export default Quiz;

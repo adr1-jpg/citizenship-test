@@ -9,15 +9,15 @@ import {
 import { LinearGradient } from "expo-linear-gradient";
 
 import React, { useState, useEffect } from "react";
-import { useRouter } from "expo-router";
-import styles from "./styles";
-import english_questions from "../assets/questions-english.json";
-import speak from "./utilities/speechToText";
+
+import styles from "../styles";
+import english_questions from "../../assets/questions-english.json";
+import speak from "../utilities/speechToText";
 import { SafeAreaView } from "react-native-safe-area-context";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-export default function Home() {
-  const router = useRouter();
+const PracticeScreen = ({ navigation }: any) => {
+
 
   interface Question {
     id: number;
@@ -82,9 +82,9 @@ export default function Home() {
     <SafeAreaView style={styles.safe_area}>
       <View style={styles.container}>
         <View style={styles.header_container}>
-          <Pressable onPress={() => router.push("/")}>
+          <Pressable onPress={() => navigation.navigate('Home')}>
             <Image
-              source={require("../assets/images/logo.png")}
+              source={require("../../assets/images/logo.png")}
               style={{ width: 40, height: 40 }}
             />
           </Pressable>
@@ -100,7 +100,7 @@ export default function Home() {
             >
               <Image
                 style={{ width: 50, height: 50 }}
-                source={require("../assets/images/large-audio.png")}
+                source={require("../../assets/images/large-audio.png")}
               />
             </Pressable>
 
@@ -145,7 +145,7 @@ export default function Home() {
                                 onPress={() => speak(word.slice(0, -1), 0.1)}
                               >
                                 <Image
-                                  source={require("../assets/images/small-audio.png")}
+                                  source={require("../../assets/images/small-audio.png")}
                                   style={{
                                     width: 35,
                                     height: 35,
@@ -168,7 +168,7 @@ export default function Home() {
                               {word}{" "}
                               <Pressable onPress={() => speak(word, 0.1)}>
                                 <Image
-                                  source={require("../assets/images/small-audio.png")}
+                                  source={require("../../assets/images/small-audio.png")}
                                   style={{
                                     width: 35,
                                     height:35,
@@ -211,7 +211,7 @@ export default function Home() {
               alignContent: "center",
               marginTop: 20,
               position: "absolute",
-              bottom: 20,
+              bottom: 10,
             }}
           >
             <Pressable
@@ -223,8 +223,8 @@ export default function Home() {
                 style={{ width: 40, height: 40 }}
                 source={
                   currentQuestion?.favorite
-                    ? require("../assets/images/heart-solid.png")
-                    : require("../assets/images/heart-outline.png")
+                    ? require("../../assets/images/heart-solid.png")
+                    : require("../../assets/images/heart-outline.png")
                 }
               />
             </Pressable>
@@ -242,3 +242,4 @@ export default function Home() {
     </SafeAreaView>
   );
 }
+export default PracticeScreen;

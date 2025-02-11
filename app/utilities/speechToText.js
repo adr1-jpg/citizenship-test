@@ -1,15 +1,14 @@
 import * as Speech from "expo-speech";
-import { toWords } from "number-to-words"; // Convert numbers to words
 
 const speak = (text, rate) => {
-  // Convert numbers to words to force correct pronunciation
-  let formattedText = text.replace(/\b\d+\b/g, (num) => toWords(parseInt(num)));
 
- 
-  Speech.speak(formattedText, {
+  Speech.speak(text, {
     rate: rate,
     language: "en",
+    voice: "com.apple.ttsbundle.siri_female_en-US_compact"
   });
 };
 
 export default speak;
+
+

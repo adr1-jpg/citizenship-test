@@ -146,7 +146,7 @@ export default StyleSheet.create({
 
   answer_text: {
     color: "#000000",
-    fontSize: 30,
+    fontSize: 26,
     fontFamily: "Merriweather_700Bold",
     lineHeight: 50,
   },

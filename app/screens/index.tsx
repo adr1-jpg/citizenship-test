@@ -1,8 +1,12 @@
+// screens/index.tsx
+import React, { useEffect } from "react";
+import * as SplashScreen from "expo-splash-screen";
 import { Image, Text, View, Pressable } from "react-native";
-import styles from "./styles";
-import { useRouter } from "expo-router";
+// Add these two new imports ⬇️
+import { useNavigation } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import styles from "../styles";
 import { SafeAreaView } from "react-native-safe-area-context";
-
 import {
   useFonts,
   Merriweather_400Regular,
@@ -13,11 +17,19 @@ import {
   MerriweatherSans_700Bold,
 } from "@expo-google-fonts/merriweather-sans";
 
-import React, { useEffect } from "react";
-import * as SplashScreen from "expo-splash-screen";
+// Add this type definition ⬇️
+type RootStackParamList = {
+  Home: undefined;
+  Practice: undefined;
+  Quiz: undefined;
+  Favorites: undefined;
+};
 
-export default function App() {
-  const router = useRouter();
+type NavigationProp = StackNavigationProp<RootStackParamList>;
+
+// Change your component definition to this ⬇️
+const HomeScreen = () => {
+  const navigation = useNavigation<NavigationProp>();
   const [fontsLoaded] = useFonts({
     Merriweather_400Regular,
     Merriweather_700Bold,
@@ -38,14 +50,12 @@ export default function App() {
     return null; // Prevents rendering until fonts are loaded
   }
 
-  
-
   return (
     <SafeAreaView style={styles.safe_area}>
       <View style={styles.container}>
         <View style={styles.header_container}>
           <Image
-            source={require("../assets/images/logo.png")}
+            source={require("../../assets/images/logo.png")}
             style={{ width: 40, height: 40 }}
           />
           <Text style={styles.primary_text}>Ciudadana</Text>
@@ -64,14 +74,14 @@ export default function App() {
           <View style={styles.buttons}>
             <Pressable
               style={styles.button_container}
-              onPress={() => router.push("/practice")}
+              onPress={() => navigation.navigate("Practice")}
             >
               <Text style={styles.button_text_english}>Practice</Text>
               <Text style={styles.button_text_spanish}>Practicar</Text>
             </Pressable>
             <Pressable
               style={styles.button_container}
-              onPress={() => router.push("/quiz")}
+              onPress={() => navigation.navigate("Quiz")}
             >
               <Text style={styles.button_text_english}>Test</Text>
               <Text style={styles.button_text_spanish}>Prueba</Text>
@@ -79,14 +89,16 @@ export default function App() {
 
             <Pressable
               style={styles.button_container_gold}
-              onPress={() => router.push("/favorites")}
+              onPress={() => navigation.navigate("Favorites")}
             >
               <Text style={styles.button_text_english}>Favorites</Text>
-              <Text style={styles.button_text_spanish}>Favoritos</Text>
+              <Text style={styles.button_text_spanish}>Favoritas</Text>
             </Pressable>
           </View>
         </View>
       </View>
     </SafeAreaView>
   );
-}
+};
+
+export default HomeScreen;
